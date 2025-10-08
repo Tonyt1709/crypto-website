@@ -62,7 +62,15 @@ h2 {
     max-width: 50px;
     margin-bottom: 1em;
 }
-
+.coin-card p {
+    margin: 0.5em 0;
+}
+.positive {
+    color: #4CAF50; /* Green for positive 24h change */
+}
+.negative {
+    color: #f44336; /* Red for negative 24h change */
+}
 form {
     display: flex;
     flex-direction: column;
